@@ -1,11 +1,25 @@
 package account;
 
+
+import javax.persistence.*;
+
+@Entity
 public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    @Column(nullable = false)
     private String name;
+    @Column(nullable = false)
     private String lastname;
+    @Column(unique = true)
     private String email;
+    @Column(nullable = false)
     private String password;
 
+    public int getId() {
+        return id;
+    }
 
     public String getName() {
         return name;
@@ -39,4 +53,14 @@ public class User {
         this.password = password;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }

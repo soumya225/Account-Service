@@ -1,14 +1,24 @@
 package account;
 
-public class UserDetails {
+public class UserInfoReceipt {
+    private int id;
     private String name;
     private String lastname;
     private String email;
 
-    public UserDetails(String name, String lastname, String email) {
+    public UserInfoReceipt(int id, String name, String lastname, String email) {
+        this.id = id;
         this.name = name;
         this.lastname = lastname;
         this.email = email;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
