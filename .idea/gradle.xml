@@ -21,6 +21,12 @@
             <option value="$PROJECT_DIR$/Topics/Polymorphism/Find mistake" />
             <option value="$PROJECT_DIR$/Topics/Polymorphism/Runtime polymorphic behavior" />
             <option value="$PROJECT_DIR$/Topics/Polymorphism/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Card name validation and identification" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Check the clock time" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Check the date" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Ignoring spaces" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Regexes in programs/Vehicle registration number" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

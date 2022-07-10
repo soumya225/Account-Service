@@ -2,19 +2,28 @@ package account;
 
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 @Entity
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(nullable = false)
+    @Column
+    @NotBlank
     private String name;
-    @Column(nullable = false)
+    @Column
+    @NotBlank
     private String lastname;
-    @Column(unique = true)
+    @Column
+    @NotBlank
+    @Email
     private String email;
-    @Column(nullable = false)
+    @Column
+    @NotBlank
+    @Size(min = 12, message = "The password length must be at least 12 chars!")
     private String password;
 
     public int getId() {

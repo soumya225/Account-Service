@@ -13,6 +13,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import java.util.List;
+
 // Extending the adapter and adding the annotation
 @Configuration
 @EnableWebSecurity
@@ -29,7 +31,6 @@ public class WebSecurityConfigurerImpl extends WebSecurityConfigurerAdapter {
         auth
                 .userDetailsService(userDetailsService)
                 .passwordEncoder(getEncoder());
-
     }
 
     @Override
@@ -48,8 +49,15 @@ public class WebSecurityConfigurerImpl extends WebSecurityConfigurerAdapter {
     }
 
 
-    @Bean
+    @Bean("encoder")
     public PasswordEncoder getEncoder() {
-        return new BCryptPasswordEncoder();
+        return new BCryptPasswordEncoder(13);
+    }
+
+    @Bean("listOfBreachedPasswords")
+    public List<String> getListOfBreachedPasswords() {
+        return List.of("PasswordForJanuary", "PasswordForFebruary", "PasswordForMarch", "PasswordForApril",
+                "PasswordForMay", "PasswordForJune", "PasswordForJuly", "PasswordForAugust",
+                "PasswordForSeptember", "PasswordForOctober", "PasswordForNovember", "PasswordForDecember");
     }
 }

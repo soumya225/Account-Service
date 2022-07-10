@@ -22,7 +22,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         return new UserDetailsImpl(user);
     }
 
-    public User save(User user) {
-        return userRepo.save(user);
+    public void save(User user) {
+        userRepo.save(user);
     }
+
 }

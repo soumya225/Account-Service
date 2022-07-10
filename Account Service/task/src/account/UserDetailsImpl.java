@@ -8,6 +8,7 @@ import java.util.Collection;
 import java.util.List;
 
 public class UserDetailsImpl implements UserDetails {
+    private final User user;
     private final int id;
     private final String name;
     private final String lastname;
@@ -17,6 +18,7 @@ public class UserDetailsImpl implements UserDetails {
     private final List<GrantedAuthority> rolesAndAuthorities;
 
     public UserDetailsImpl(User user) {
+        this.user = user;
         id = user.getId();
         name = user.getName();
         lastname = user.getLastname();
@@ -24,6 +26,10 @@ public class UserDetailsImpl implements UserDetails {
         username = user.getEmail();
         password = user.getPassword();
         rolesAndAuthorities = List.of(new SimpleGrantedAuthority("ROLE_USER"));
+    }
+
+    public User getUser() {
+        return user;
     }
 
     public int getId() {
