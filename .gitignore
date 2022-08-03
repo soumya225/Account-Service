@@ -1,5 +1,6 @@
 /Topics/
-/.idea/
+.idea
+.gradle
 /Account Service/lesson-info.yaml
 /Account Service/service_db.mv.db
 /Account Service/service_db.mv.db-real
