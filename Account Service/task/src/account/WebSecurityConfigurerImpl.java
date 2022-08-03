@@ -41,7 +41,7 @@ public class WebSecurityConfigurerImpl extends WebSecurityConfigurerAdapter {
                 .csrf().disable().headers().frameOptions().disable() // for Postman, the H2 console
                 .and()
                 .authorizeRequests() // manage access
-                .mvcMatchers(HttpMethod.POST, "/api/auth/signup").permitAll()
+                .mvcMatchers("/api/auth/signup", "/api/acct/payments").permitAll()
                 .mvcMatchers("/api/**").authenticated()
                 .and()
                 .sessionManagement()
