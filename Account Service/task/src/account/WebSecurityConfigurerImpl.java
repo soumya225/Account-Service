@@ -1,5 +1,7 @@
 package account;
 
+import account.exceptionHandlers.CustomAccessDeniedHandler;
+import account.models.RoleType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -36,12 +38,19 @@ public class WebSecurityConfigurerImpl extends WebSecurityConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.httpBasic()
-                .authenticationEntryPoint(restAuthenticationEntryPoint) // Handle auth error
+                .authenticationEntryPoint(restAuthenticationEntryPoint)
+                .and()
+                .exceptionHandling().accessDeniedHandler(new CustomAccessDeniedHandler())// Handle auth error
                 .and()
                 .csrf().disable().headers().frameOptions().disable() // for Postman, the H2 console
                 .and()
                 .authorizeRequests() // manage access
-                .mvcMatchers("/api/auth/signup", "/api/acct/payments").permitAll()
+                .mvcMatchers("/api/auth/signup").permitAll()
+                .mvcMatchers(HttpMethod.GET, "/api/empl/payment")
+                    .hasAnyAuthority(RoleType.ROLE_ACCOUNTANT.toString(), RoleType.ROLE_USER.toString())
+                .mvcMatchers(HttpMethod.POST, "/api/acct/payments")
+                    .hasAuthority(RoleType.ROLE_ACCOUNTANT.toString())
+                .mvcMatchers("/api/admin/**").hasAuthority(RoleType.ROLE_ADMINISTRATOR.toString())
                 .mvcMatchers("/api/**").authenticated()
                 .and()
                 .sessionManagement()

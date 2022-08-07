@@ -9,38 +9,40 @@
 * =========|_|==============|___/=/_/_/_/
 , :: Spring Boot ::        (v2.3.1.RELEASE)
 
-Ü2022-08-02 10:19:57.761  INFO 17856 --- [    Test worker] account.AccountServiceApplication        : Starting AccountServiceApplication on DESKTOP-1NFTNE0 with PID 17856 (started by pc in C:\Users\pc\Documents\Java Programs\Account Service\Account Service\task)
-¶2022-08-02 10:19:57.769  INFO 17856 --- [    Test worker] account.AccountServiceApplication        : No active profile set, falling back to default profiles: default
-¢2022-08-02 10:20:03.893  INFO 17856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-ª2022-08-02 10:20:04.222  INFO 17856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 280ms. Found 2 JPA repository interfaces.
-ì2022-08-02 10:20:06.031  INFO 17856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
-2022-08-02 10:20:06.057  INFO 17856 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-ï2022-08-02 10:20:06.058  INFO 17856 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
-ò2022-08-02 10:20:06.408  INFO 17856 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-•2022-08-02 10:20:06.408  INFO 17856 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8414 ms
-Ä2022-08-02 10:20:06.918  INFO 17856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-Ö2022-08-02 10:20:07.380  INFO 17856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-∑2022-08-02 10:20:07.403  INFO 17856 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:../service_db'
-ú2022-08-02 10:20:07.737  INFO 17856 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-ü2022-08-02 10:20:07.885  INFO 17856 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-ù2022-08-02 10:20:07.991  WARN 17856 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-ò2022-08-02 10:20:08.155  INFO 17856 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
-û2022-08-02 10:20:09.064  INFO 17856 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-¢2022-08-02 10:20:09.066  INFO 17856 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-ü2022-08-02 10:20:09.843  INFO 17856 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-õ2022-08-02 10:20:10.092  INFO 17856 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-û2022-08-02 10:20:10.315  INFO 17856 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@727dcc64, org.springframework.security.web.context.SecurityContextPersistenceFilter@a55e82a, org.springframework.security.web.header.HeaderWriterFilter@77856cc5, org.springframework.security.web.authentication.logout.LogoutFilter@7c4ca87c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4ec8d9b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a01ffff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cf2f5d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49e62b17, org.springframework.security.web.session.SessionManagementFilter@2b4829aa, org.springframework.security.web.access.ExceptionTranslationFilter@39514976, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d7d8911]
+Ñ2022-08-07 12:43:34.090  INFO 3268 --- [    Test worker] account.AccountServiceApplication        : Starting AccountServiceApplication on DESKTOP-1NFTNE0 with PID 3268 (started by pc in C:\Users\pc\Documents\Java Programs\Account Service\Account Service\task)
+•2022-08-07 12:43:34.094  INFO 3268 --- [    Test worker] account.AccountServiceApplication        : No active profile set, falling back to default profiles: default
+°2022-08-07 12:43:35.534  INFO 3268 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+π2022-08-07 12:43:35.624  INFO 3268 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 2 JPA repository interfaces.
+í2022-08-07 12:43:36.544  INFO 3268 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+~2022-08-07 12:43:36.560  INFO 3268 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+î2022-08-07 12:43:36.561  INFO 3268 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+ó2022-08-07 12:43:36.692  INFO 3268 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+§2022-08-07 12:43:36.692  INFO 3268 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2522 ms
+2022-08-07 12:43:36.877  INFO 3268 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+Ñ2022-08-07 12:43:37.187  INFO 3268 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+∂2022-08-07 12:43:37.213  INFO 3268 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:../service_db'
+õ2022-08-07 12:43:37.419  INFO 3268 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+û2022-08-07 12:43:37.501  INFO 3268 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+ú2022-08-07 12:43:37.546  WARN 3268 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ó2022-08-07 12:43:37.621  INFO 3268 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+ù2022-08-07 12:43:37.913  INFO 3268 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+°2022-08-07 12:43:37.984  INFO 3268 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+û2022-08-07 12:43:38.167  INFO 3268 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+ö2022-08-07 12:43:38.302  INFO 3268 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+û2022-08-07 12:43:38.375  INFO 3268 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@192f5f39, org.springframework.security.web.context.SecurityContextPersistenceFilter@6480a063, org.springframework.security.web.header.HeaderWriterFilter@6814262d, org.springframework.security.web.authentication.logout.LogoutFilter@5b0e9e0c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2ceb68a1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@727dcc64, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a0ffb9b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cd5fc46, org.springframework.security.web.session.SessionManagementFilter@236fd411, org.springframework.security.web.access.ExceptionTranslationFilter@304744a1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@336d28a1]
 ™Hibernate: create table payroll (employee varchar(255) not null, period varchar(255) not null, salary bigint not null check (salary>=0), primary key (employee, period))
+áHibernate: create table role (id integer generated by default as identity, role_type varchar(255), user_id integer, primary key (id))
 ≥Hibernate: create table user (id integer generated by default as identity, email varchar(255), lastname varchar(255), name varchar(255), password varchar(255), primary key (id))
-Ÿ2022-08-02 10:20:13.328  INFO 17856 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-©2022-08-02 10:20:13.359  INFO 17856 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-¢2022-08-02 10:20:13.752  INFO 17856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
-ß2022-08-02 10:20:13.755  INFO 17856 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories‚Ä¶
-ã2022-08-02 10:20:15.363  INFO 17856 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-≤2022-08-02 10:20:15.425  INFO 17856 --- [    Test worker] account.AccountServiceApplication        : Started AccountServiceApplication in 19.174 seconds (JVM running for 23.034)
-ü2022-08-02 10:20:18.267  INFO 17856 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-é2022-08-02 10:20:18.270  INFO 17856 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-á2022-08-02 10:20:18.303  INFO 17856 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+nHibernate: alter table role add constraint FK61g3ambult7v7nh59xirgd9nf foreign key (user_id) references user
+ÿ2022-08-07 12:43:39.532  INFO 3268 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+®2022-08-07 12:43:39.550  INFO 3268 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+°2022-08-07 12:43:39.700  INFO 3268 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+¶2022-08-07 12:43:39.702  INFO 3268 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories‚Ä¶
+ä2022-08-07 12:43:40.166  INFO 3268 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+Ø2022-08-07 12:43:40.179  INFO 3268 --- [    Test worker] account.AccountServiceApplication        : Started AccountServiceApplication in 6.562 seconds (JVM running for 7.814)
+û2022-08-07 12:43:40.609  INFO 3268 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ç2022-08-07 12:43:40.609  INFO 3268 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+Ü2022-08-07 12:43:40.625  INFO 3268 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
 [1;31m
 Start test 2[0m
 [1;31m
@@ -61,113 +63,157 @@
 Start test 10[0m
 [1;31m
 Start test 11[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
 [1;31m
 Start test 12[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+9Hibernate: select count(*) as col_0_0_ from user user0_
 ]Hibernate: insert into user (id, email, lastname, name, password) values (null, ?, ?, ?, ?)
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+JHibernate: insert into role (id, role_type, user_id) values (null, ?, ?)
 [1;31m
 Start test 13[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+9Hibernate: select count(*) as col_0_0_ from user user0_
+]Hibernate: insert into user (id, email, lastname, name, password) values (null, ?, ?, ?, ?)
+JHibernate: insert into role (id, role_type, user_id) values (null, ?, ?)
 [1;31m
 Start test 14[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+9Hibernate: select count(*) as col_0_0_ from user user0_
+]Hibernate: insert into user (id, email, lastname, name, password) values (null, ?, ?, ?, ?)
+JHibernate: insert into role (id, role_type, user_id) values (null, ?, ?)
 [1;31m
 Start test 15[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+9Hibernate: select count(*) as col_0_0_ from user user0_
+]Hibernate: insert into user (id, email, lastname, name, password) values (null, ?, ?, ?, ?)
+JHibernate: insert into role (id, role_type, user_id) values (null, ?, ?)
 [1;31m
 Start test 16[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-]Hibernate: insert into user (id, email, lastname, name, password) values (null, ?, ?, ?, ?)
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 [1;31m
 Start test 17[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 [1;31m
 Start test 18[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 [1;31m
 Start test 19[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
 ®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
 [1;31m
 Start test 20[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
 ®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
 [1;31m
 Start test 21[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
 [1;31m
 Start test 22[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
 [1;31m
 Start test 23[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
 [1;31m
 Start test 24[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
 [1;31m
 Start test 25[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
 [1;31m
 Start test 26[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
 [1;31m
 Start test 27[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
 [1;31m
 Start test 28[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
 [1;31m
 Start test 29[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-[1;31m
-Start test 30[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-[1;31m
-Start test 31[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-[1;31m
-Start test 32[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
- Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.lastname as lastname3_1_0_, user0_.name as name4_1_0_, user0_.password as password5_1_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+ùHibernate: select user0_.id as id1_2_1_, user0_.email as email2_2_1_, user0_.lastname as lastname3_2_1_, user0_.name as name4_2_1_, user0_.password as password5_2_1_, roles1_.user_id as user_id3_1_3_, roles1_.id as id1_1_3_, roles1_.id as id1_1_0_, roles1_.role_type as role_typ2_1_0_, roles1_.user_id as user_id3_1_0_ from user user0_ left outer join role roles1_ on user0_.id=roles1_.user_id where user0_.id=?
 OHibernate: update user set email=?, lastname=?, name=?, password=? where id=?
 [1;31m
-Start test 33[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+Start test 30[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
 [1;31m
-Start test 34[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+Start test 31[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+ÆHibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 [1;31m
-Start test 35[0m
-•2022-08-02 10:21:05.953  INFO 17856 --- [     Thread-336] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-ù2022-08-02 10:21:05.961  INFO 17856 --- [     Thread-336] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-ä2022-08-02 10:21:05.964  INFO 17856 --- [     Thread-336] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-à2022-08-02 10:21:06.012  INFO 17856 --- [     Thread-336] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+Start test 32[0m
+§2022-08-07 12:43:56.797  INFO 3268 --- [     Thread-336] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+ú2022-08-07 12:43:56.800  INFO 3268 --- [     Thread-336] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+â2022-08-07 12:43:56.802  INFO 3268 --- [     Thread-336] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+á2022-08-07 12:43:56.805  INFO 3268 --- [     Thread-336] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 
 )  .   ____          _            __ _ _
 * /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -177,118 +223,402 @@
 * =========|_|==============|___/=/_/_/_/
 , :: Spring Boot ::        (v2.3.1.RELEASE)
 
-Ü2022-08-02 10:21:06.222  INFO 17856 --- [    Test worker] account.AccountServiceApplication        : Starting AccountServiceApplication on DESKTOP-1NFTNE0 with PID 17856 (started by pc in C:\Users\pc\Documents\Java Programs\Account Service\Account Service\task)
-¶2022-08-02 10:21:06.224  INFO 17856 --- [    Test worker] account.AccountServiceApplication        : No active profile set, falling back to default profiles: default
-¢2022-08-02 10:21:07.885  INFO 17856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-∫2022-08-02 10:21:07.964  INFO 17856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79ms. Found 2 JPA repository interfaces.
-ì2022-08-02 10:21:08.366  INFO 17856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
-2022-08-02 10:21:08.368  INFO 17856 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-ï2022-08-02 10:21:08.368  INFO 17856 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
-ò2022-08-02 10:21:08.466  INFO 17856 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-•2022-08-02 10:21:08.466  INFO 17856 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2232 ms
-Ä2022-08-02 10:21:08.672  INFO 17856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-Ö2022-08-02 10:21:08.705  INFO 17856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-∑2022-08-02 10:21:08.706  INFO 17856 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:../service_db'
-ú2022-08-02 10:21:08.844  INFO 17856 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-ü2022-08-02 10:21:08.861  INFO 17856 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-ü2022-08-02 10:21:08.892  INFO 17856 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-ù2022-08-02 10:21:08.929  WARN 17856 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-¢2022-08-02 10:21:09.058  INFO 17856 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-Ÿ2022-08-02 10:21:09.094  INFO 17856 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-©2022-08-02 10:21:09.095  INFO 17856 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-õ2022-08-02 10:21:09.360  INFO 17856 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-ù2022-08-02 10:21:09.389  INFO 17856 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72406594, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d8096ee, org.springframework.security.web.header.HeaderWriterFilter@736f2fb8, org.springframework.security.web.authentication.logout.LogoutFilter@558575fe, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@25fcdcc6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35d8ba22, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fc051ce, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e1104f4, org.springframework.security.web.session.SessionManagementFilter@9715d26, org.springframework.security.web.access.ExceptionTranslationFilter@aca594d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a9e7b4d]
-¢2022-08-02 10:21:09.654  INFO 17856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
-ß2022-08-02 10:21:09.655  INFO 17856 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories‚Ä¶
-ã2022-08-02 10:21:09.900  INFO 17856 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-±2022-08-02 10:21:09.916  INFO 17856 --- [    Test worker] account.AccountServiceApplication        : Started AccountServiceApplication in 3.811 seconds (JVM running for 77.524)
+Ñ2022-08-07 12:43:56.855  INFO 3268 --- [    Test worker] account.AccountServiceApplication        : Starting AccountServiceApplication on DESKTOP-1NFTNE0 with PID 3268 (started by pc in C:\Users\pc\Documents\Java Programs\Account Service\Account Service\task)
+•2022-08-07 12:43:56.855  INFO 3268 --- [    Test worker] account.AccountServiceApplication        : No active profile set, falling back to default profiles: default
+°2022-08-07 12:43:57.389  INFO 3268 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+π2022-08-07 12:43:57.412  INFO 3268 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 2 JPA repository interfaces.
+í2022-08-07 12:43:57.530  INFO 3268 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+~2022-08-07 12:43:57.531  INFO 3268 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+î2022-08-07 12:43:57.532  INFO 3268 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+ó2022-08-07 12:43:57.569  INFO 3268 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+£2022-08-07 12:43:57.569  INFO 3268 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 711 ms
+2022-08-07 12:43:57.627  INFO 3268 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+Ñ2022-08-07 12:43:57.628  INFO 3268 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+∂2022-08-07 12:43:57.629  INFO 3268 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:../service_db'
+õ2022-08-07 12:43:57.688  INFO 3268 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+û2022-08-07 12:43:57.697  INFO 3268 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+û2022-08-07 12:43:57.707  INFO 3268 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+ú2022-08-07 12:43:57.734  WARN 3268 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+°2022-08-07 12:43:57.810  INFO 3268 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+ÿ2022-08-07 12:43:57.822  INFO 3268 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+®2022-08-07 12:43:57.823  INFO 3268 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ö2022-08-07 12:43:57.938  INFO 3268 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+ú2022-08-07 12:43:57.949  INFO 3268 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14ee143a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4feaa4b8, org.springframework.security.web.header.HeaderWriterFilter@443b6765, org.springframework.security.web.authentication.logout.LogoutFilter@70f3bf00, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@49770ef9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c6eaa65, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53f1fcc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78324e97, org.springframework.security.web.session.SessionManagementFilter@a72925, org.springframework.security.web.access.ExceptionTranslationFilter@33060020, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@236f3885]
+°2022-08-07 12:43:58.064  INFO 3268 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+¶2022-08-07 12:43:58.066  INFO 3268 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories‚Ä¶
+ä2022-08-07 12:43:58.116  INFO 3268 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+∞2022-08-07 12:43:58.121  INFO 3268 --- [    Test worker] account.AccountServiceApplication        : Started AccountServiceApplication in 1.302 seconds (JVM running for 25.756)
+[1;31m
+Start test 33[0m
+û2022-08-07 12:43:58.127  INFO 3268 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ç2022-08-07 12:43:58.127  INFO 3268 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+Ö2022-08-07 12:43:58.131  INFO 3268 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+[1;31m
+Start test 34[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 35[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
 [1;31m
 Start test 36[0m
-ü2022-08-02 10:21:09.953  INFO 17856 --- [io-28852-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-é2022-08-02 10:21:09.953  INFO 17856 --- [io-28852-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-Ü2022-08-02 10:21:09.963  INFO 17856 --- [io-28852-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+ÆHibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 [1;31m
 Start test 37[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+(Hibernate: delete from role where id=?
+(Hibernate: delete from user where id=?
 [1;31m
 Start test 38[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+ÆHibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 [1;31m
 Start test 39[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 [1;31m
 Start test 40[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
 [1;31m
 Start test 41[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+9Hibernate: select count(*) as col_0_0_ from user user0_
+]Hibernate: insert into user (id, email, lastname, name, password) values (null, ?, ?, ?, ?)
+JHibernate: insert into role (id, role_type, user_id) values (null, ?, ?)
 [1;31m
 Start test 42[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
 ®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
 [1;31m
 Start test 43[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+ÆHibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 [1;31m
 Start test 44[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+(Hibernate: delete from role where id=?
+(Hibernate: delete from user where id=?
 [1;31m
 Start test 45[0m
+§2022-08-07 12:44:05.470  INFO 3268 --- [     Thread-669] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+)  .   ____          _            __ _ _
+* /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
++( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+, \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
++  '  |____| .__|_| |_|_| |_\__, | / / / /
+* =========|_|==============|___/=/_/_/_/
+, :: Spring Boot ::        (v2.3.1.RELEASE)
+
+Ñ2022-08-07 12:44:05.508  INFO 3268 --- [    Test worker] account.AccountServiceApplication        : Starting AccountServiceApplication on DESKTOP-1NFTNE0 with PID 3268 (started by pc in C:\Users\pc\Documents\Java Programs\Account Service\Account Service\task)
+•2022-08-07 12:44:05.508  INFO 3268 --- [    Test worker] account.AccountServiceApplication        : No active profile set, falling back to default profiles: default
+°2022-08-07 12:44:05.994  INFO 3268 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+π2022-08-07 12:44:06.013  INFO 3268 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 2 JPA repository interfaces.
+í2022-08-07 12:44:06.120  INFO 3268 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+~2022-08-07 12:44:06.121  INFO 3268 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+î2022-08-07 12:44:06.122  INFO 3268 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+ó2022-08-07 12:44:06.159  INFO 3268 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+£2022-08-07 12:44:06.159  INFO 3268 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 646 ms
+2022-08-07 12:44:06.211  INFO 3268 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+Ñ2022-08-07 12:44:06.213  INFO 3268 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+∂2022-08-07 12:44:06.214  INFO 3268 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:../service_db'
+õ2022-08-07 12:44:06.265  INFO 3268 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+û2022-08-07 12:44:06.274  INFO 3268 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+û2022-08-07 12:44:06.285  INFO 3268 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+ú2022-08-07 12:44:06.303  WARN 3268 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ÿ2022-08-07 12:44:06.374  INFO 3268 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+®2022-08-07 12:44:06.375  INFO 3268 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+°2022-08-07 12:44:06.376  INFO 3268 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+ö2022-08-07 12:44:06.494  INFO 3268 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+ù2022-08-07 12:44:06.507  INFO 3268 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@543a7605, org.springframework.security.web.context.SecurityContextPersistenceFilter@48d14ea0, org.springframework.security.web.header.HeaderWriterFilter@36ae17ef, org.springframework.security.web.authentication.logout.LogoutFilter@16279a5d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f7949dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21251e43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@677274e7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33997e07, org.springframework.security.web.session.SessionManagementFilter@3f919230, org.springframework.security.web.access.ExceptionTranslationFilter@c7cbc2d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b60d99c]
+°2022-08-07 12:44:06.600  INFO 3268 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+¶2022-08-07 12:44:06.600  INFO 3268 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories‚Ä¶
+ä2022-08-07 12:44:06.645  INFO 3268 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+∞2022-08-07 12:44:06.650  INFO 3268 --- [    Test worker] account.AccountServiceApplication        : Started AccountServiceApplication in 1.179 seconds (JVM running for 34.285)
 [1;31m
 Start test 46[0m
+û2022-08-07 12:44:06.655  INFO 3268 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ç2022-08-07 12:44:06.655  INFO 3268 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+Ö2022-08-07 12:44:06.657  INFO 3268 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+ÆHibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 [1;31m
 Start test 47[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
-FHibernate: update payroll set salary=? where employee=? and period=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ùHibernate: select user0_.id as id1_2_1_, user0_.email as email2_2_1_, user0_.lastname as lastname3_2_1_, user0_.name as name4_2_1_, user0_.password as password5_2_1_, roles1_.user_id as user_id3_1_3_, roles1_.id as id1_1_3_, roles1_.id as id1_1_0_, roles1_.role_type as role_typ2_1_0_, roles1_.user_id as user_id3_1_0_ from user user0_ left outer join role roles1_ on user0_.id=roles1_.user_id where user0_.id=?
+JHibernate: insert into role (id, role_type, user_id) values (null, ?, ?)
 [1;31m
 Start test 48[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+ÆHibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 [1;31m
 Start test 49[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ùHibernate: select user0_.id as id1_2_1_, user0_.email as email2_2_1_, user0_.lastname as lastname3_2_1_, user0_.name as name4_2_1_, user0_.password as password5_2_1_, roles1_.user_id as user_id3_1_3_, roles1_.id as id1_1_3_, roles1_.id as id1_1_0_, roles1_.role_type as role_typ2_1_0_, roles1_.user_id as user_id3_1_0_ from user user0_ left outer join role roles1_ on user0_.id=roles1_.user_id where user0_.id=?
+(Hibernate: delete from role where id=?
 [1;31m
 Start test 50[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+ÆHibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+[1;31m
+Start test 51[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ùHibernate: select user0_.id as id1_2_1_, user0_.email as email2_2_1_, user0_.lastname as lastname3_2_1_, user0_.name as name4_2_1_, user0_.password as password5_2_1_, roles1_.user_id as user_id3_1_3_, roles1_.id as id1_1_3_, roles1_.id as id1_1_0_, roles1_.role_type as role_typ2_1_0_, roles1_.user_id as user_id3_1_0_ from user user0_ left outer join role roles1_ on user0_.id=roles1_.user_id where user0_.id=?
+JHibernate: insert into role (id, role_type, user_id) values (null, ?, ?)
+[1;31m
+Start test 52[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+[1;31m
+Start test 53[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+[1;31m
+Start test 54[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+[1;31m
+Start test 55[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+[1;31m
+Start test 56[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+[1;31m
+Start test 57[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+[1;31m
+Start test 58[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+[1;31m
+Start test 59[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 60[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 61[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 62[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 63[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 64[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 65[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+LHibernate: insert into payroll (salary, employee, period) values (?, ?, ?)
+[1;31m
+Start test 66[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+[1;31m
+Start test 67[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+[1;31m
+Start test 68[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 69[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+[1;31m
+Start test 70[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 71[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+[1;31m
+Start test 72[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
+[1;31m
+Start test 73[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+[1;31m
+Start test 74[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 75[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+[1;31m
+Start test 76[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
 ≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
 FHibernate: update payroll set salary=? where employee=? and period=?
 [1;31m
-Start test 51[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
+Start test 77[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?
 ≈Hibernate: select payroll0_.employee as employee1_0_0_, payroll0_.period as period2_0_0_, payroll0_.salary as salary3_0_0_ from payroll payroll0_ where payroll0_.employee=? and payroll0_.period=?
 [1;31m
-Start test 52[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-[1;31m
-Start test 53[0m
-√Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.lastname as lastname3_1_, user0_.name as name4_1_, user0_.password as password5_1_ from user user0_ where user0_.email=?
-®Hibernate: select payroll0_.employee as employee1_0_, payroll0_.period as period2_0_, payroll0_.salary as salary3_0_ from payroll payroll0_ where payroll0_.employee=?
+Start test 78[0m
+√Hibernate: select user0_.id as id1_2_, user0_.email as email2_2_, user0_.lastname as lastname3_2_, user0_.name as name4_2_, user0_.password as password5_2_ from user user0_ where user0_.email=?
+’Hibernate: select roles0_.user_id as user_id3_1_0_, roles0_.id as id1_1_0_, roles0_.id as id1_1_1_, roles0_.role_type as role_typ2_1_1_, roles0_.user_id as user_id3_1_1_ from role roles0_ where roles0_.user_id=?
+ Hibernate: select user0_.id as id1_2_0_, user0_.email as email2_2_0_, user0_.lastname as lastname3_2_0_, user0_.name as name4_2_0_, user0_.password as password5_2_0_ from user user0_ where user0_.id=?

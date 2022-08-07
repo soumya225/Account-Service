@@ -1,9 +1,11 @@
 package account;
 
+import account.models.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -17,6 +19,7 @@ public class UserDetailsImpl implements UserDetails {
     private final String password;
     private final List<GrantedAuthority> rolesAndAuthorities;
 
+
     public UserDetailsImpl(User user) {
         this.user = user;
         id = user.getId();
@@ -25,7 +28,11 @@ public class UserDetailsImpl implements UserDetails {
         email = user.getEmail();
         username = user.getEmail();
         password = user.getPassword();
-        rolesAndAuthorities = List.of(new SimpleGrantedAuthority("ROLE_USER"));
+
+        rolesAndAuthorities = new ArrayList<>();
+
+        user.getRoles().forEach(role -> rolesAndAuthorities.add(new SimpleGrantedAuthority(role.getRoleType().toString())));
+
     }
 
     public User getUser() {
