@@ -1,15 +1,13 @@
 package account.controllers;
 
-import account.DBService;
+import account.models.*;
+import account.services.DBService;
 import account.comparators.SortByRole;
-import account.models.ChangeRole;
-import account.models.Operation;
-import account.models.RoleType;
-import account.UserDetailsImpl;
-import account.UserDetailsServiceImpl;
-import account.models.UserInfoReceipt;
+import account.models.UserDetailsImpl;
+import account.services.UserDetailsServiceImpl;
 import account.exceptions.BadRequestException;
 import account.exceptions.NotFoundException;
+import account.repositories.SecurityEventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,17 +15,21 @@ import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.*;
 
 @RestController
 @RequestMapping(
         value = "/api/admin",
-        method = {RequestMethod.GET, RequestMethod.DELETE}
+        method = {RequestMethod.GET, RequestMethod.DELETE, RequestMethod.PUT}
 )
 public class AdminController {
     @Autowired
     UserDetailsServiceImpl userDetailsServiceImpl;
+
+    @Autowired
+    SecurityEventRepository securityEventRepository;
 
     @Autowired
     DBService dbService;
@@ -58,7 +60,8 @@ public class AdminController {
 
     @DeleteMapping("/user/{email}")
     public ResponseEntity<Map<String, String>> deleteUser(@AuthenticationPrincipal UserDetails loggedInUser,
-                                                          @PathVariable String email) {
+                                                          @PathVariable String email,
+                                                          HttpServletRequest request) {
 
         UserDetailsImpl userDetails = userDetailsServiceImpl.loadUserByUsername(email);
 
@@ -73,6 +76,14 @@ public class AdminController {
 
         userDetailsServiceImpl.deleteUserByUsername(email);
 
+        securityEventRepository.save(new SecurityEvent(
+                new Date(),
+                SecurityEventName.DELETE_USER,
+                request.getRemoteUser(),
+                userDetails.getEmail(),
+                request.getRequestURI()
+        ));
+
         Map<String, String> map = new HashMap<>();
         map.put("user", email);
         map.put("status", "Deleted successfully!");
@@ -81,7 +92,8 @@ public class AdminController {
     }
 
     @PutMapping("/user/role")
-    public ResponseEntity<UserInfoReceipt> setRoleOfUser(@Valid @RequestBody ChangeRole changeRole) {
+    public ResponseEntity<UserInfoReceipt> setRoleOfUser(@Valid @RequestBody ChangeRole changeRole,
+                                                         HttpServletRequest request) {
         UserDetailsImpl details = userDetailsServiceImpl.loadUserByUsername(changeRole.getUser());
 
         if(details == null) {
@@ -106,18 +118,28 @@ public class AdminController {
         if(changeRole.getOperation().equals(Operation.GRANT.toString())) {
             if (details.getAuthorities().stream()
                     .anyMatch(a -> a.getAuthority().equals(RoleType.ROLE_ADMINISTRATOR.toString()))) {
-                if(roleFound.equals(RoleType.ROLE_USER) || roleFound.equals(RoleType.ROLE_ACCOUNTANT)) {
+                if(roleFound.equals(RoleType.ROLE_USER)
+                        || roleFound.equals(RoleType.ROLE_ACCOUNTANT)
+                        || roleFound.equals(RoleType.ROLE_AUDITOR)) {
                     throw new BadRequestException("The user cannot combine administrative and business roles!");
                 }
             } else if (details.getAuthorities().stream()
-                    .anyMatch(a -> a.getAuthority().equals(RoleType.ROLE_USER.toString())
-                            || a.getAuthority().equals(RoleType.ROLE_ACCOUNTANT.toString()))) {
+                    .noneMatch(a -> a.getAuthority().equals(RoleType.ROLE_ADMINISTRATOR.toString()))) {
                 if(roleFound.equals(RoleType.ROLE_ADMINISTRATOR)) {
                     throw new BadRequestException("The user cannot combine administrative and business roles!");
                 }
             }
 
+            securityEventRepository.save(new SecurityEvent(
+                    new Date(),
+                    SecurityEventName.GRANT_ROLE,
+                    request.getRemoteUser(),
+                    "Grant role " + roleFound.getRole() + " to " + details.getEmail(),
+                    request.getRequestURI()
+            ));
+
             dbService.addRoleToUser(details.getUser(), roleFound);
+
         } else if (changeRole.getOperation().equals(Operation.REMOVE.toString())) {
 
             if(roleFound.equals(RoleType.ROLE_ADMINISTRATOR)) {
@@ -134,7 +156,16 @@ public class AdminController {
                 throw new BadRequestException("The user does not have a role!");
             }
 
+            securityEventRepository.save(new SecurityEvent(
+                    new Date(),
+                    SecurityEventName.REMOVE_ROLE,
+                    request.getRemoteUser(),
+                    "Remove role " + roleFound.getRole() + " from " + details.getEmail(),
+                    request.getRequestURI()
+            ));
+
             dbService.removeRoleFromUser(details.getUser(), roleFound);
+
         } else {
             throw new BadRequestException("Operation not found");
         }
@@ -151,5 +182,37 @@ public class AdminController {
                 details.getEmail(),
                 roleTypes
         ), HttpStatus.OK);
+    }
+
+    @PutMapping("/user/access")
+    public ResponseEntity<Map<String, String>> setUserAccess(@Valid @RequestBody ChangeLock changeLock,
+                              HttpServletRequest request) {
+        UserDetailsImpl details = userDetailsServiceImpl.loadUserByUsername(changeLock.getUser());
+
+        if(details == null) {
+            throw new NotFoundException("User not found!");
+        }
+
+        Map<String, String> map = new HashMap<>();
+        map.put("status", "User " + changeLock.getUser() + " locked!");
+
+        if(changeLock.getOperation().equals(Operation.LOCK.toString())) {
+
+            if (details.getAuthorities().stream()
+                    .anyMatch(a -> a.getAuthority().equals(RoleType.ROLE_ADMINISTRATOR.toString()))) {
+                throw new BadRequestException("Can't lock the ADMINISTRATOR!");
+            }
+
+            userDetailsServiceImpl.lock(details.getUser(), request.getRemoteUser(), request.getRequestURI());
+
+            map.put("status", "User " + details.getEmail() + " locked!");
+
+        } else if (changeLock.getOperation().equals(Operation.UNLOCK.toString())) {
+            userDetailsServiceImpl.unlock(details.getUser(), request.getRemoteUser(), request.getRequestURI());
+
+            map.put("status", "User " + details.getEmail() + " unlocked!");
+        }
+
+        return new ResponseEntity<>(map, HttpStatus.OK);
     }
 }

@@ -1,8 +1,5 @@
 package account.models;
 
-
-import account.comparators.SortByRole;
-
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
@@ -14,7 +11,7 @@ import java.util.List;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     @Column
     @NotBlank
     private String name;
@@ -33,6 +30,11 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Role> roles = new ArrayList<>();
 
+    @Column(insertable = false, columnDefinition = "Boolean default 'true'")
+    private Boolean accountNonLocked;
+
+    @Column(insertable = false, columnDefinition = "Integer default '0'")
+    private Integer failedAttempt;
 
     public List<Role> getRoles() {
         return roles;
@@ -46,7 +48,7 @@ public class User {
         this.roles.remove(role);
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -82,6 +84,22 @@ public class User {
         this.password = password;
     }
 
+    public Boolean isAccountNonLocked() {
+        return accountNonLocked;
+    }
+
+    public void setAccountNonLocked(Boolean accountNonLocked) {
+        this.accountNonLocked = accountNonLocked;
+    }
+
+    public Integer getFailedAttempt() {
+        return failedAttempt;
+    }
+
+    public void setFailedAttempt(Integer failedAttempt) {
+        this.failedAttempt = failedAttempt;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -91,6 +109,8 @@ public class User {
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", roles=" + roles +
+                ", accountNonLocked=" + accountNonLocked +
+                ", failedAttempt=" + failedAttempt +
                 '}';
     }
 }

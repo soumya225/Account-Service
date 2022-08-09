@@ -1,7 +1,6 @@
 package account.models;
 
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Pattern;
 
 public class ChangeRole {
 

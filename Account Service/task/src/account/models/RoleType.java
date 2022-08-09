@@ -3,7 +3,8 @@ package account.models;
 public enum RoleType {
     ROLE_ADMINISTRATOR("ADMINISTRATOR"),
     ROLE_USER("USER"),
-    ROLE_ACCOUNTANT("ACCOUNTANT");
+    ROLE_ACCOUNTANT("ACCOUNTANT"),
+    ROLE_AUDITOR("AUDITOR");
 
     private final String role;
 

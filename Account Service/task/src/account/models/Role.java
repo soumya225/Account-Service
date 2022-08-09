@@ -7,7 +7,7 @@ public class Role {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
@@ -26,7 +26,7 @@ public class Role {
         this.user = user;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
